@@ -1,0 +1,32 @@
+.banner{
+  background:url("banner.jpg");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.banner-content
+ {
+  text-align: left;
+  color: #FFF;
+  padding-top:100px;
+  padding-left: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.banner-content h1{
+  font-family:sans-serif;
+}
+.social-icon{
+  display: inline-block;
+  padding-left: 12px;
+  background-color: #7E7E7E;
+  border-radius: 50%;
+  padding: 9px;
+  color:#F9F9F9;
+}
+.social-icon:hover{
+  background-color: black;
+  color: white;
+}
