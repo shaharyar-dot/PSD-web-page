@@ -104,6 +104,45 @@
   width: 450px;
   height: 307px;
   border-radius: 6%;
+}
 
 
+.slideshow-container {
+
+  background: white;
+  height: 177.32px;
+}
+
+.mySlides {
+  display: none;
+  padding: 35px;
+  text-align: center;
+  font-family: helveticaneuemedium;;
+  color: grey;
+  font-size: 24px;
+}
+
+.dot-container {
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 14.5px;
+  width: 14.5px;
+  margin: 0 4px;
+  background-color: #FFFFFF;
+  border-color: #3498DB;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.author{
+  color: black;
+  font-family: Myriad Pro Light;
+  font-size: 18px;
+  padding-top: 19px;
+}
+.active, .dot:hover {
+  background-color: #3498DB;
 }
