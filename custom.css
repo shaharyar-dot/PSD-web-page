@@ -103,24 +103,34 @@ padding-top: 10px;
   font-size: 30px;
 
 }
-.jumbotron p{
+
+.backG p{
   font-size: 16;
   font-family: helveticaneuelight;
   color: #707070;
   font-weight: 10px;
   align:left;
 }
-.jumbotron li{
+
+.backG{
+  background-color: #E3E3E3;
+  padding: 2.5%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.backG li{
   font-size: 16;
   font-family: helveticaneuelight;
   color: #707070;
   font-weight: 10px;
   list-style: none;
 }
-.jumbotron video{
+.backG video{
+
   width: 450px;
   height: 307px;
   border-radius: 6%;
+  float: right;
 }
 
 
@@ -136,7 +146,8 @@ padding-top: 10px;
   text-align: center;
   font-family: helveticaneuelight;
   color: #707070;
-  font-size: 24px;
+  font-size: 18px;
+  font-style: italic;
 }
 
 .dot-container {
@@ -160,7 +171,9 @@ padding-top: 10px;
 }
 .author{
   color: black;
-  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
   padding-top: 19px;
 }
 .active, .dot:hover {
@@ -225,6 +238,7 @@ padding-top: 10px;
 }
 .PP{
   height: 651px;
+
 }
 .Hi{
   padding-top: 30px;
@@ -261,6 +275,9 @@ padding-top: 10px;
   color:white;
   border-style: none;
 
+}
+.Ca{
+  max-width: 0.3px;
 }
 .fa:hover{
   transform: scale(1.3);
